@@ -1,0 +1,3 @@
+Verify if '{subset}' qualifies as a direct child node under '{intermediate_layer}' in the subsumption hierarchy, ensuring the parent node accurately represents a broader, encompassing category applicable to all child instances. Answer 'yes' or 'no'.
+
+Verify if '{existing_layer}' qualifies as a direct child node under '{intermediate_layer}' in the subsumption hierarchy, ensuring the parent node accurately represents a broader, encompassing category applicable to all child instances. Answer 'yes' or 'no'.
