@@ -1,1 +1,9 @@
-
+Identify intermediate categories that fit logically between the upper-tier category '{upper_tier_category}' 
+and the subset(s) from the following list to construct a subsumption hierarchy based on OntoClean principles: {concept_list}. 
+Each intermediate category should group related subsets through a meaningful generalization and serve as a distinct, coherent child node under '{upper_tier_category}'. 
+According to subsumption hierarchy principles, a parent node must represent a more general concept, while child nodes should represent more specific instances 
+or classes under the parent. Intermediate categories should be mutually exclusive, meaning that no subset should fit into more than one intermediate category, and each intermediate 
+category should be a unique and direct subset of '{concept_list}' based on its properties. Each suggestion of intermediate layers should also avoid conjunctions like 'and' or 'or' 
+and must contain at least two unique items from the subsets to form a logical grouping. 
+Format the response as a **single JSON array** structured as: [['intermediate_category', ['subset of concepts']]]. 
+If no valid intermediate categories can be formed, respond with 'no'. Provide the output only as a valid JSON array or the string 'no' without any comments or annotations.
