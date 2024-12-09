@@ -1,0 +1,17 @@
+# Define the Identity and Unity prompt templates
+identity_prompt_template = (
+    "In ontological studies, the concept of 'Identity' plays a crucial role in distinguishing and categorizing entities based on their intrinsic and relational properties. "
+    "The meta-property 'Identity' refers to a system of criteria (IC) used to determine when two or more instances of a property are considered identical—that is, they represent the same entity or belong to the same class of entities. "
+    "Considering this definition, identify the identity criteria for the intermediate layer '{parent_node}' to determine its distinguishing features. Please point out those characteristics in a precise point form."
+)
+
+unity_prompt_template = (
+    "The concept of Unity in the OntoClean methodology is about recognizing the parts and boundaries of objects such that we know what is part of the object, what is not, and under what conditions the object is considered whole. "
+    "Considering this definition, identify the unity criteria for the intermediate layer '{parent_node}' to determine its distinguishing features and boundaries. Please point out those characteristics in a precise point form."
+)
+
+# Checking whether the inheritance property of the child node matches that of its parent node
+
+identity_question = f"Does the '{child_node}' share the same identity criterion as {identity_criteria}? Answer 'yes' or 'no'."
+
+unity_question = f"Does the '{child_node}' share the same unity criterion as {unity_criteria}? Answer 'yes' or 'no'."
