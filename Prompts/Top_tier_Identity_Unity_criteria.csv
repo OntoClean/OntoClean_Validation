@@ -1,0 +1,42 @@
+Upper_tier_category,Identity_criteria,Unity_criteria,Rigidity,Unity,Identity
+Location,"Uniqueness: A specific geographical position or area that is distinct from others.
+Continuity: Retains identity despite changes in descriptive or administrative boundaries.
+Boundedness: Defined by physical or conceptual boundaries.
+Contextual Dependency: Identity may depend on reference frameworks, such as maps or coordinates.
+Non-transference: Cannot be the same as another location; each location is exclusive in its identity.",, +R, -U, +O
+Amount of Matter,"Mass: Defined by the total quantity of matter in an object, regardless of its form.
+Conservation: Maintains identity under conditions where the matter is neither created nor destroyed.
+Quantifiability: Measurable in specific units such as kilograms or grams.
+Independence from Form: Identity is not dependent on the shape or state of the matter.
+Non-identity Across Composition: Different compositions of matter with the same mass are considered distinct entities.",, +R, ~U, +O
+Physical Object,"Persistence: Continuity of existence over time despite changes in form or location.
+Boundedness: Clear physical boundaries that separate the object from its environment.
+Composition: Defined by its constituent parts or materials.
+Uniqueness: Distinct physical properties that differentiate it from other objects.
+Independence: Exists independently of other entities and can be individually identified.","The unity of 'Physical Object' in ontology is characterized by:
+
+Structural Integrity: Maintains a specific, coherent structure.
+Boundedness: Has clear physical boundaries separating it from other objects.
+Non-scatteredness: Exists as a single, contiguous entity.
+Cohesiveness: Parts are connected in a stable and unified manner.
+Functional Wholeness: Functions as a complete unit according to its purpose or design.", +R, +U, +O
+Living being,"Biological Continuity: Maintains identity through biological processes like growth and reproduction.
+Organizational Integrity: Defined by a specific arrangement of organs and systems.
+Genetic Consistency: Identified by a unique genetic makeup.
+Capacity for Metabolism: Ability to perform metabolic processes distinguishing it from non-living entities.
+Developmental Trajectory: Follows a life cycle from birth to death, maintaining identity through various stages.","Biological Integrity: Maintains a coherent and functional biological structure.
+Autonomy: Capable of self-regulation and maintaining homeostasis.
+Organizational Cohesion: Composed of interdependent parts working together for the survival and functioning of the whole.
+Reproductive Potential: Possesses the potential to reproduce, contributing to the continuity of the species.
+Developmental Continuity: Follows a continuous developmental process from birth to maturity.", +R, +U, +O
+Social Entity,,"Collective Intentionality: Shared goals or intentions among members.
+Organizational Structure: Defined roles and relationships among members.
+Normative Cohesion: Adherence to common norms, rules, or values.
+Functional Unity: Members collectively fulfill a social function or purpose.
+Interdependence: Mutual dependence among members to maintain the entity's identity and function.", +R, +U, -I
+Agent,,, ~R, -U, -I
+Group,"Membership: Defined by the individuals who are part of the group.
+Shared Purpose or Goal: Unified by a common objective or interest.
+Organizational Structure: Presence of roles, rules, or an internal structure.
+Collective Action: Ability to act as a single entity based on the decisions or actions of its members.
+Continuity Through Membership Changes: Maintains identity even when members join or leave, as long as core purposes or structures are preserved.",, +R, ~U, +O
