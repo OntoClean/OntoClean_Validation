@@ -9,7 +9,7 @@ nltk.download('omw-1.4')
 lemmatizer = WordNetLemmatizer()
 
 # Load the CSV files
-output_file_path = '05_Sep_Aug_all_files.csv'
+output_file_path = ''
 criteria_file_path = 'Top_tier_Identity_Unity_criteria.csv'
 
 df_output = pd.read_csv(output_file_path)
@@ -32,7 +32,7 @@ df_output['reason_to_fail_unity'] = ''
 # df_output = df_output[df_output['anti_property_criteria'].str.upper() == 'YES']
 
 # OpenAI API setup
-openai.api_key = "sk-None-tvw6VwXREXvMud5sqt59T3BlbkFJ1PRIKouJu5u2SgJzwh5t"  # Replace with your actual API key
+openai.api_key = " "  # Replace with your actual API key
 
 def ask_gpt3_turbo(question):
     response = openai.ChatCompletion.create(
