@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file
-file_path = '05_Sep_Aug_all_files.csv'  # Replace with your actual file path
+file_path = ' '  # Replace with your actual file path
 df = pd.read_csv(file_path)
 
 # Trim the cell values of ['GPT3.5_Rigidity'] and ['GPT3.5_Unity'] to remove any leading/trailing spaces
